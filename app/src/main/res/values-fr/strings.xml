@@ -5,5 +5,8 @@
     <string name="ButtonText">Une Bouton.</string>
     <string name="Login">Identifier: </string>
     <string name="Password">Mot de Passe: </string>
-    <string name="Switch">Qu'est-ce que cela fait?</string>
+    <string name="Switch">Qu\'est-ce que cela fait?</string>
+    <string name="Button">Bouton</string>
+    <string name="LoginName">identifier</string>
+    <string name="PasswordName">mot de passe</string>
 </resources>
