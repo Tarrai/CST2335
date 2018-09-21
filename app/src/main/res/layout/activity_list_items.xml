@@ -3,40 +3,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_row="2"
-    android:layout_column="2"
+    android:rowCount="2"
+    android:columnCount="2"
     tools:context=".ListItemsActivity">
 
 
     <Button
         android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button"
         android:layout_columnWeight="1"
-        android:gravity="fill"
-        android:text="@string/Button" />
+        android:gravity="fill"/>
 
     <CheckBox
         android:id="@+id/checkBox"
-        android:layout_column="1"
-        android:layout_row="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox"
         android:layout_columnWeight="1"
-        android:gravity="fill"
-        android:text="@string/checkbox" />
+        android:gravity="fill"/>
 
     <Switch
         android:id="@+id/switch1"
-        android:layout_column="0"
-        android:layout_row="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Switch"
         android:layout_columnWeight="1"
-        android:gravity="fill"
-        android:text="@string/Switch" />
+        android:gravity="fill"/>
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_column="1"
-        android:layout_row="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_camera"
         android:layout_columnWeight="1"
-        android:gravity="fill"
-        android:src="@android:drawable/ic_menu_camera" />
+        android:gravity="fill"/>
 
 
 </GridLayout>
